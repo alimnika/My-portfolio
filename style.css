@@ -1,0 +1,95 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.185);
+}
+.container{
+    width: 1200px;
+    height: 500px;
+    padding: 10px;
+    /* border: 2px solid blue; */
+    margin-left: 15px;
+    margin: 0 auto;
+    position: relative;
+    background-image:url('Nurzat.jpg');
+    background-size: cover;
+}
+
+.head-menu{
+    float: right;
+    /* border: 2px solid red; */
+    width: 150px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style-type: none;
+    /* /* border-style: groove; */
+    border-radius: 15px;
+    margin-top: 18px;
+    padding: 8px;
+    cursor: pointer;
+    width: 80px;
+    background-color: #E4E4E1;
+    background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
+ 	background-blend-mode: normal, multiply;
+}
+li:hover{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    color: white;
+}
+.projects{
+    background-image:url('Projects.jpg');
+    width: 1200px;
+    height: 500px;
+    margin-left: 15px;
+    margin: 0 auto;
+}
+.skills{
+    background-image: url(https://sites.google.com/site/unit3digportfolio/_/rsrc/1429874740297/b-designs-for-the-digital-portfolio/4-assets-and-their-sources/beautiful-simple-english-words-wallpapers.jpg);
+    background-size: cover;
+    width: 1200px;
+    height: 500px;
+    margin-left: 15px;
+    margin: 0 auto;
+    color: white;
+    position: relative;
+}
+h2{
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 48px;
+    text-shadow: 5px 5px rgb(66, 63, 63);
+}
+.tecnical-skills{
+    position: absolute;
+    border: 2px solid red;
+    margin-left: 350px;
+    width: 200px;
+    
+
+}
+#codes{
+    display: flex;
+    flex-direction: row;
+}
+.close{
+    list-style-type: none;
+}
+.other-skills{
+    position: absolute;
+    border: 2px solid red;
+    margin-left: 650px;
+    width: 200px;
+}
+.other-skills i{
+    padding: 15px;
+}
+.contact{
+    background-image:url('Contact.jpg');
+    width: 1200px;
+    height: 500px;
+}
